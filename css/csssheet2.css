@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.carousel-example-interval {
+    max-width: 50%;
+    min-width: 1%;  
+}
+
+/*comienzo del header*/
+/* header {                            
+    background:rgb(66, 66, 66);
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-top: 4px;
+}
+
+header .menu .logo img{
+    width: 96px;
+}
+
+header nav .menu .links{
+    display: flex;
+}
+
+header nav .menu .links a{
+    padding: 24px 24px ;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 4px solid transparent
+}
+
+header nav .menu .links a:hover{
+    border-bottom: #fff;
+    border-bottom: 4px solid
+}
+
+header nav .auth button {
+    padding: 24px 16px;
+    border: none;
+    background-color: rgb(143, 105, 52);
+    color: #fff;
+}
+
+header nav .auth button:hover{
+    background-color: rgb(209, 134, 35) ;
+    color: rgb(43, 42, 42);
+}
+
+header nav .auth button:active{
+    background-color: rgb(189, 150, 112);
+    color: black;
+} */
+/*final del header*/
+
+/* header 2 */
+/* header {
+    background:rgb(66, 66, 66);
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img{
+    width: 96px;
+}
+
+.links, li { 
+    list-style: none;
+}
+
+.links, a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdowncontent{
+    display:flex;
+}
+
+.dropdowncontent{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    position:absolute;
+    padding-top: 24px;
+    background-color: rgb(66, 66, 66) ;
+    margin-right: 80px;
+    min-width: 160px;
+    margin-bottom: 24px;
+    margin-left: -50px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block
+}
+
+li {
+    margin-top: 12px;
+    margin-bottom: 12px;
+} */
+
+
+/* header nav .menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-top: 4px;
+}
+
+
+header nav .menu .links, li { 
+    list-style: none;
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: flex;
+    
+}
+
+.juegos li {
+    float: left;
+}
+
+.tutoriales li {
+    float: left;
+} */
+
+
+
+
+video {
+    
+    width: 720px;
+    height: 405px;
+}
+
+.Maintext {
+    color: white;
+}

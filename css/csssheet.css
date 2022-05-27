@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 20px;
+}
+
+
+/* comienzo del header */
+
+header {
+    background:rgb(66, 66, 66);
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img{
+    width: 96px;
+}
+
+.links, li { 
+    list-style: none;
+}
+
+.links, a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdowncontent{
+    display:flex;
+}
+
+.dropdowncontent{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+    position:absolute;
+    padding-top: 24px;
+    background-color: rgb(66, 66, 66) ;
+    margin-right: 80px;
+    min-width: 160px;
+    margin-bottom: 24px;
+    margin-left: -50px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+}
+
+li {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+header nav .menu .links, li { 
+    list-style: none;
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: flex;
+    
+}
+
+.dropdowncontent{
+    min-width: 176px;
+}
+
+/* comienzo del video */
+
+.videos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+video {
+    width: 720px;
+    height: 405px;
+}
+
+.Maintext {
+    color: white;
+}
+
+/*comienza los tutoriales-hoi4*/
+
+.Informacion {
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 32px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-image: url(/img/wallpaper\ 2\ bakcground.jpg)
+
+}
+
+.Informacion > h2 {
+    font-size: 32px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.Informacion > p{
+    font-size: 20px;
+    grid-column: span 2;
+}
+
+.Politica {
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 32px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+
+}
+
+.Politica > h2 {
+    font-size: 32px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.Politica > p{
+    font-size: 20px;
+    grid-column: span 2;
+}
+
+.Politica > div {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.Economia {
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 32px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+}
+
+.Economia > h2 {
+    font-size: 32px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.Economia > p {
+    grid-column: span 3;
+    font-size: 20px;
+    
+}
+
+.Economia img {
+    grid-column-start: 2;
+}
+
+.Economia > div {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+
+.Militar {
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 32px;
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto;
+    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+}
+
+.Militar > h2 {
+    font-size: 32px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.Militar > p {
+    grid-column: span 3;
+    font-size: 20px;
+}
+
+
+.Militar > div {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+
+.Maintext img {
+    width:100%;
+}
+
+/*Terminan los tutoriales-hoi4*/
+/* comienza el footer */
+
+.contacto {
+    background-color: rgb(66, 66, 66) ;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    grid-template-rows: 50px 30px 100px;
+    grid-template-areas: 
+    "header header header"
+    "steam twitter gmail"
+    "steamid twitterid gmailid"
+    "derechos derechos derechos";
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-bottom: 50px;
+    padding-top: 32px;
+}
+
+
+.titulo {
+    grid-area: header;
+    font-size: 30px;
+    
+}
+
+i {
+    
+    font-size: 25px;
+    
+}
+
+.simbolo1 {
+    grid-area: steam;
+}
+
+.simbolo2 {
+    grid-area: twitter;
+}
+
+.simbolo3 {
+    grid-area: gmail;
+}
+
+.texto1 {
+    grid-area: steamid;
+}
+
+.texto2 {
+    grid-area: twitterid;
+}
+
+.texto3 {
+    grid-area: gmailid;
+}
+
+.copyright {
+    grid-area: derechos;
+}
+
+footer i{
+    color: green;
+}
+
+
+/* termina el footer  */
+
+
+
+/* Responsive */
