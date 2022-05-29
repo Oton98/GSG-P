@@ -1,19 +1,19 @@
 // topnavbar
+
 document.getElementById("topnavbar").innerHTML=
 `
 <nav>
     <div class="menu">
         <ul class="links">
             <div class="logo">
-                <img src="/img/logorm.jpg" alt="GSGP_Logo">
+                <img src="./img/logorm.jpg" alt="GSGP_Logo">
             </div>
-            <li><a href="/index.html"> Inicio </a></li>
+            <li><a href="./index.html"> Inicio </a></li>
             <div class="dropdown">
                 <li><a href="#Juegos"> Juegos </a></li>
                 <div class="dropdowncontent">
-                    <li><a href="/HOI4.html"> Hearts of Iron 4 </a></li>
-                    <li><a href="/EU4.html"> Europa Universalis 4 </a></li>
-                    <li><a href="/Stellaris.html"> Stellaris </a></li>
+                    <li><a href="./HOI4.html"> Hearts of Iron 4 </a></li>
+                    <li><a href="./EU4.html"> Europa Universalis 4 </a></li>
                 </div>
             </div>
             <div class="dropdown">
@@ -25,7 +25,7 @@ document.getElementById("topnavbar").innerHTML=
                     <li><a href="#Militar"> Militar </a></li>
                 </div>
             </div>
-            <li><a href="/Login.html"> Login </a></li>
+            <li><a href="./Login.html"> Login </a></li>
         </ul>
     </div>
 </nav>
@@ -62,4 +62,6 @@ for (let i = 0; i < videos.length; i++) {
   });
 }
 
-//funcion redirct paginas
+
+
+ 

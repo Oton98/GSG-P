@@ -4,10 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link href="/css/csssheet.css" rel="stylesheet">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="./css/csssheet.css" rel="stylesheet">
+    
 </head>
 <body>
+    <header id="index">
+        <nav>
+          <div class="menu">
+              <ul class="links">
+                  <div class="logo">
+                      <img src="./img/logorm.jpg" alt="GSGP_Logo">
+                  </div>
+                  <li><a href="./index.html"> Inicio </a></li>
+                  <div class="dropdown">
+                      <li><a href="#Juegos"> Juegos </a></li>
+                      <div class="dropdowncontent">
+                          <li><a href="./HOI4.html"> Hearts of Iron 4 </a></li>
+                          <li><a href="./EU4.html"> Europa Universalis 4 </a></li>
+                          <li><a href="./Stellaris.html"> Stellaris </a></li>
+                      </div>
+                  </div>
+                  <li><a href="./Login.html"> Login </a></li>
+              </ul>
+          </div>
+      </nav>
+    </header>
+    <h1>Registro</h1>
+    <main>
+    <form action="" class="formulario" id="formulario">
+        
+        <div class="formgroup" id="idgroup">
+            <label for="usuario" class="formulariolabel">Usuario:</label>
+            <div class="grupo">
+                <input type="text" class="formularioinput" name="usuario" id="usuario">
+                <i class="formulariovalidacion fa-regular fa-circle-xmark"></i>
+            </div>
+            <p class="formularioerror">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guión bajo</p>
+        </div>
+
+        <div class="formgroup" id="nombregroup">
+            <label for="nombre" class="formulariolabel">Nombre:</label>
+            <div class="grupo">
+                <input type="text" class="formularioinput" name="nombre" id="nombre">
+                <i class="formulariovalidacion fa-regular fa-circle-xmark"></i>
+            </div>
+            <p class="formularioerror">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guión bajo</p>
+        </div>
+
+        <div class="formgroup" id="passwordgroup">
+            <label for="password" class="formulariolabel">Contraseña:</label>
+            <div class="grupo">
+                <input type="password" class="formularioinput" name="password" id="password">
+                <i class="formulariovalidacion fa-regular fa-circle-xmark"></i>
+            </div>
+            <p class="formularioerror">La contraseña tiene que tener de 4 a 12 caracteres</p>
+        </div>
+
+        <div class="formgroup" id="password2group">
+            <label for="password2" class="formulariolabel">Repetir Contraseña:</label>
+            <div class="grupo">
+                <input type="password" class="formularioinput" name="password2" id="password2">
+                <i class="formulariovalidacion fa-regular fa-circle-xmark"></i>
+            </div>
+            <p class="formularioerror">La contraseñas no son idénticas</p>
+        </div>
+        
+        <div class="formgroup" id="correogroup">
+            <label for="correo" class="formulariolabel">Correo Electrónico:</label>
+            <div class="grupo">
+                <input type="email" class="formularioinput" name="correo" id="correo">
+                <i class="formulariovalidacion fa-regular fa-circle-xmark"></i>
+            </div>
+            <p class="formularioerror">Correo electrónico inválido</p>
+        </div>
+        
+        <div class="formgroupterminos" id="terminosgroup">
+            <label class="formulariolabel"> 
+                <input class="checkbox" type="checkbox" name="terminos" id="terminos">
+                Acepto términos  y condiciones
+            </label>
+        </div>
+
+        <div class="formulariomensaje" id="formulariomensaje">
+            <p><i class="fa-solid fa-circle-exclamation">Error: Faltan datos o errores</i></p>
+        </div>
+
+        <div class="formgroup formgroup-btnenviar">
+            <button type="submit" class="formulariobtn">Enviar</button>
+            <p class="formularioenviado" id="formularioenviado">Formulario enviado exitosamente</p>
+
+        </div>
+    </main>
+    </form>
     <footer>
         <div class="contacto">
             <p class="titulo">Contacto</p>
@@ -32,7 +124,7 @@
             <p class="copyright">Todos los derechos reservados</p>
         </div>
     </footer>
-    
-        <script src="/js/javascriptsheet.js"></script>
+        <script src="./js/login.js"></script>
+        <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
 </body>
 </html>
