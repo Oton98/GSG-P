@@ -110,7 +110,7 @@ header nav .menu .links, li {
 .poster{
     display: flex;
     justify-content: center;
-    background-image: url(./img/wallpaper\ 6\ background.jpg);
+    background-image: url(../img/wallpaper\ 6\ background.jpg);
     background-size: cover;
     flex-direction: row;
     flex-wrap: wrap;
@@ -146,7 +146,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    background-image: url(./img/wallpaper\ 4\ background.jpg);
+    background-image: url(../img/wallpaper\ 4\ background.jpg);
     background-size: cover;
 
 }
@@ -172,7 +172,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    background-image: url(./img/wallpaper\ 4\ background.jpg) ;
+    background-image: url(../img/wallpaper\ 4\ background.jpg) ;
     background-size: cover;
 
 }
@@ -206,7 +206,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    background-image: url(./img/wallpaper\ 4\ background.jpg) ;
+    background-image: url(../img/wallpaper\ 4\ background.jpg) ;
     background-size: cover;
 }
 
@@ -245,7 +245,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto ;
     grid-template-rows: auto auto auto;
-    background-image: url(./img/wallpaper\ 4\ background.jpg) ;
+    background-image: url(../img/wallpaper\ 4\ background.jpg) ;
     background-size: cover;
 }
 
