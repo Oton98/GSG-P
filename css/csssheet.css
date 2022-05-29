@@ -267,7 +267,7 @@ header nav .menu .links, li {
 .poster{
     display: flex;
     justify-content: center;
-    background-image: url(/img/wallpaper\ 2\ bakcground.jpg);
+    background-image: url(./img/wallpaper\ 2\ bakcground.jpg);
     background-size: cover;
     flex-direction: row;
     flex-wrap: wrap;
@@ -303,7 +303,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    background-image: url(/img/wallpaper\ 2\ bakcground.jpg)
+    background-image: url(./img/wallpaper\ 2\ bakcground.jpg)
 
 }
 
@@ -328,7 +328,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+    background-image: url(./img/wallpaper\ 2\ bakcground.jpg) ;
 
 }
 
@@ -361,7 +361,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+    background-image: url(./img/wallpaper\ 2\ bakcground.jpg) ;
 }
 
 .Economia > h2 {
@@ -399,7 +399,7 @@ video {
     grid-row-gap: 30px;
     grid-template-columns: auto auto auto ;
     grid-template-rows: auto auto auto;
-    background-image: url(/img/wallpaper\ 2\ bakcground.jpg) ;
+    background-image: url(./img/wallpaper\ 2\ bakcground.jpg) ;
 }
 
 .Militar > h2 {
