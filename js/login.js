@@ -98,3 +98,81 @@ formulario.addEventListener('submit', (e) => {
     }
 } )
 
+function guardar() {
+
+    let u = document.getElementById("usuario").value
+    let n = document.getElementById("nombre").value
+    let c = document.getElementById("password").value
+    let ce = document.getElementById("correo").value
+
+    let usuarios = {
+        usuario: u,
+        nombre: n,
+        contraseña: c,
+        correoelectronico: ce
+    }
+    
+    let url = "http://localhost:5000/usuarios"
+    var options = {
+        body: JSON.stringify(usuarios),
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+       // redirect: 'follow'
+    }
+
+    fetch(url, options)
+        .then(function () {
+            console.log("creado")
+            alert("Grabado")
+            window.location.href = "/index.html"  
+            
+            // Handle response we get from the API
+        })
+        
+        .catch(err => {
+            //this.errored = true
+            alert("Error al grabar" )
+            console.error(err);
+        })
+}
+
+function login() {
+
+    let u = document.getElementById("usuario").value
+    let c = document.getElementById("password").value
+
+    let usuarios = {
+        usuario: u,
+        contraseña: c,
+    }
+    
+    let url = "http://localhost:5000/login"
+    var options = {
+        body: JSON.stringify(usuarios),
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+       // redirect: 'follow'
+    }
+    
+    fetch(url, options)
+        .then(function (response) {
+            if (response.status === 200) {
+            console.log("logueado")
+            alert("logueado")
+            sessionStorage.setItem('logueado', 'true');
+            sessionStorage.setItem('usuario', u);   
+            window.location.href = "/index.html"         
+        } else {
+            console.log("usuario incorrecto")
+            alert("usuario incorrecto")
+        }
+
+            // Handle response we get from the API
+        })
+        .catch(err => {
+            this.errored = true
+            alert("Error al iniciar sesión (backend)" )
+            console.error(err);
+        })
+}
+

@@ -25,7 +25,8 @@ document.getElementById("topnavbar").innerHTML=
                     <li><a href="#Militar"> Militar </a></li>
                 </div>
             </div>
-            <li><a href="./Login.html"> Login </a></li>
+            <li><a href="./registro.html"  id="registro"> Registro </a></li>
+            <li><a href="./login.html" id="login"> Login </a></li>
         </ul>
     </div>
 </nav>

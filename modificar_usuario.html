@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="./css/csssheet.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="nonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <header id="index">
+        <nav>
+            <div class="menu">
+                <ul class="links">
+                    <div class="logo">
+                        <img src="./img/logorm.jpg" alt="GSGP_Logo">
+                    </div>
+                    <li><a href="./index.html"> Inicio </a></li>
+                    <div class="dropdown">
+                        <li><a href="#Juegos"> Juegos </a></li>
+                        <div class="dropdowncontent">
+                            <li><a href="./HOI4.html"> Hearts of Iron 4 </a></li>
+                            <li><a href="./EU4.html"> Europa Universalis 4 </a></li>
+                        </div>
+                    </div>
+                    <li><a href="./registro.html"  id="registro"> Registro </a></li>
+                    <li><a href="./login.html" id="login"> Login </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Modificacion Usuarios</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="txtId">Id</label>
+                    <input type="text" class="form-control" name="txtId" id="txtId" disabled><br>
+                </div>
+                <div class="mb-3">
+                    <label for="txtUsuario">Usuario:</label>
+                    <input type="text" class="form-control" name="txtUsuario" id="txtUsuario"><br>
+                </div>
+                <div class="mb-3">
+                    <label for="txtNombre">Nombre:</label>
+                    <input type="text" class="form-control" name="txtNombre" id="txtNombre"> <br>
+                </div>
+                <div class="mb-3">
+                    <label for="txtContraseña">Contraseña:</label>
+                    <input type="text" class="form-control" name="txtContraseña" id="txtContraseña"> <br>
+                </div>
+                <div class="mb-3">
+                    <label for="txtCorreo">Correo:</label>
+                    <input type="text" class="form-control" name="txtCorreo" id="txtCorreo"> <br>
+                </div>
+                <button type="button" class="btn btn-success" onclick="modificar()">Grabar </button>
+            </form>
+            <br>
+            <a href="admin.html" class="btn btn-warning">Admin</a>
+        </div>
+    </main>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <p class="titulo">Contacto</p>
+            <div class="simbolo1"><i class="fa-brands fa-steam" id="steam"></i></div>
+            <div class="simbolo2"><i class="fa-brands fa-twitter"></i></div>
+            <div class="simbolo3"><i class="fa-brands fa-google"></i></div>
+            <a href="https://steamcommunity.com/id/oton/">
+                <div class="texto1">
+                    <p>Chiche Gelblung</p>
+                </div>
+            </a>
+            <a href="https://twitter.com/magicdiago">
+                <div class="texto2">
+                    <p>@magicdiago</p>
+                </div>
+            </a>
+            <a href="mailto:joaquindiago98@gmail.com">
+                <div class="texto3">
+                    <p>joaquindiago98@gmail.com</p>
+                </div>
+            </a>
+            <p class="copyright">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/modificar.js"></script>
+    <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
