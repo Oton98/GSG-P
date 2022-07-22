@@ -11,8 +11,14 @@ app.secret_key = "codoacodo"
 CORS(app)
  
 # configuro la base de datos, con el nombre el usuario y la clave
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:legionsagrada15@localhost/database'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://sql10508133:9enLP5EAWn@sql10.freemysqlhosting.net/sql10508133'
 #                                               user:clave@localhost/nombreBaseDatos
+# Server: sql10.freemysqlhosting.net
+# Name: sql10508133
+# Username: sql10508133
+# Password: 9enLP5EAWn
+# Port number: 3306
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
 ma=Marshmallow(app)
@@ -112,10 +118,11 @@ def delete_producto(id):
     db.session.commit()
     return usuario_schema.jsonify(usuario)
 
+@app.route('/')
+def index():
+    return "<h1>Corriendo servidor Flask</h1>"
 
-
-# programa principal
 if __name__=='__main__':  
-    app.run(debug=True, port=5000)
+    app.run(debug=False, port=5000)
 
 
