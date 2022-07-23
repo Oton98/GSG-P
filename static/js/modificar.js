@@ -23,7 +23,7 @@ function modificar() {
         contrasena: c,
         correo: ce
     }
-    let url = "http://localhost:5000/usuarios/"+id
+    let url = "https://gsgp.herokuapp.com/usuarios/"+id
     var options = {
         body: JSON.stringify(usuario),
         method: 'PUT',
