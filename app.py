@@ -1,12 +1,12 @@
 from cgitb import html
 from pickle import GET
-from flask import Flask, jsonify, request, render_template, redirect, url_for, flash, session
+from flask import Flask, jsonify, request, current_app, send_from_directory
 from flask_cors import CORS
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
  
-app=Flask(__name__)
+app = Flask(__name__)
 app.secret_key = "codoacodo"
 CORS(app)
  
@@ -119,8 +119,12 @@ def delete_producto(id):
     return usuario_schema.jsonify(usuario)
 
 @app.route('/')
-def index():
-    return "<h1>Corriendo servidor Flask</h1>"
+def root():
+    return current_app.send_static_file('/index.html')
+
+@app.route("/static/<path:path>")
+def static_dir(path):
+    return send_from_directory("static", path)
 
 if __name__=='__main__':  
     app.run(debug=False)
