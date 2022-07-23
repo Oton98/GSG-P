@@ -136,8 +136,8 @@ function guardar() {
         })
 }
 
-function login() {
-
+function login(e) {
+    e.preventDefault();
     let u = document.getElementById("usuario").value
     let c = document.getElementById("password").value
 
