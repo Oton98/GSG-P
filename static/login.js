@@ -112,7 +112,7 @@ function guardar() {
         correoelectronico: ce
     }
     
-    let url = "http://localhost:5000/usuarios"
+    let url = "https://gsgp.herokuapp.com/usuarios"
     var options = {
         body: JSON.stringify(usuarios),
         method: 'POST',
@@ -124,7 +124,7 @@ function guardar() {
         .then(function () {
             console.log("creado")
             alert("Grabado")
-            window.location.href = "/index.html"  
+            window.location.href = "./index.html"  
             
             // Handle response we get from the API
         })
@@ -146,7 +146,7 @@ function login() {
         contraseña: c,
     }
     
-    let url = "http://localhost:5000/login"
+    let url = "https://gsgp.herokuapp.com/login"
     var options = {
         body: JSON.stringify(usuarios),
         method: 'POST',
@@ -161,7 +161,7 @@ function login() {
             alert("logueado")
             sessionStorage.setItem('logueado', 'true');
             sessionStorage.setItem('usuario', u);   
-            window.location.href = "/index.html"         
+            window.location.href = "./index.html"         
         } else {
             console.log("usuario incorrecto")
             alert("usuario incorrecto")
