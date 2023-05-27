@@ -1,0 +1,26 @@
+.contact {
+    @include flexbox(column, center, center);
+    background-color:rgb(54, 54, 54);
+    
+
+    &-title {
+        margin: 16px;
+        color: white;
+
+    }
+    &-socialmedia{
+        @include flexbox(row, space-around, center);
+        width: 100%;
+
+        &-name{
+            @include flexbox(column, center, center);
+            row-gap: 8px;
+        }
+
+    }
+    &-signature{
+        margin: 16px;
+        color: white;
+
+    }
+}

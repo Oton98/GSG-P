@@ -1,0 +1,22 @@
+body{
+    background-color: #000000;
+}
+
+.carousel{
+    @include flexbox(row, center, center);
+    margin-top: 32px;
+}
+
+.paradox-videos {
+    &-title {
+        @include flexbox (row, center, center);
+        margin: 24px;
+        color: white;
+    }
+
+    &-iframes {
+        @include flexbox(row, center, center);
+        column-gap: 16px;
+        margin: 24px;
+    }
+}

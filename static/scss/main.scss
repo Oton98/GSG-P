@@ -1,0 +1,20 @@
+@import "./utils/mixins.scss";
+@import "./utils/colors.scss";
+
+@import "./base/base";
+@import "./base/reset";
+
+@import "./pages/index.scss";
+@import "./pages/eu4.scss";
+@import "./pages/hoi4.scss";
+
+@import "./components/buttons.scss";
+@import "./components/carousel.scss";
+@import "./components/icons.scss";
+@import "./components/images.scss";
+@import "./components/videos.scss";
+
+@import "./layout/navbar.scss";
+@import "./layout/footer.scss";
+
+@import "./mobile";

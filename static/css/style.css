@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-width: 0;
+}
+
+html {
+  height: 100%;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.paradox-videos-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+  color: white;
+}
+.paradox-videos-iframes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  margin: 24px;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  margin: 32px;
+}
+.informacion-title h2 {
+  color: white;
+}
+.informacion-text {
+  color: white;
+  width: 70%;
+}
+
+.politica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  margin: 32px;
+}
+.politica-title h2 {
+  color: white;
+}
+.politica-corpus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+}
+.politica-corpus-text {
+  display: flex;
+  color: white;
+  width: 100%;
+}
+.politica-corpus-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 16px;
+}
+.politica-corpus-img img {
+  max-width: 80%;
+}
+
+.economia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  margin: 32px;
+}
+.economia-title h2 {
+  color: white;
+}
+.economia-corpusX {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+}
+.economia-corpusX-text {
+  display: flex;
+  color: white;
+  width: 100%;
+}
+.economia-corpusX-imgX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 16px;
+}
+.economia-corpusX-imgX img {
+  max-width: 90%;
+}
+.economia-corpusY {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+}
+.economia-corpusY-text {
+  display: flex;
+  color: white;
+  width: 100%;
+}
+.economia-corpusY-imgY {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 24px 0px;
+  column-gap: 16px;
+}
+.economia-corpusY-imgY img {
+  max-width: 90%;
+}
+
+.militar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  margin: 32px;
+}
+.militar-title h2 {
+  color: white;
+}
+.militar-corpusX {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+}
+.militar-corpusX-text {
+  display: flex;
+  color: white;
+  width: 60%;
+}
+.militar-corpusX-imgX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 16px;
+}
+.militar-corpusX-imgX img {
+  max-width: 90%;
+}
+.militar-corpusY {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+}
+.militar-corpusY-text {
+  display: flex;
+  color: white;
+  width: 100%;
+}
+.militar-corpusY-imgY {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 24px 0px;
+  column-gap: 16px;
+}
+.militar-corpusY-imgY img {
+  max-width: 90%;
+}
+
+#carouselExampleIndicators {
+  width: 70%;
+  height: 70%;
+}
+
+i {
+  color: green;
+  font-size: 24px;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/wallpaper6.jpg");
+  background-size: cover;
+}
+
+.videos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+video {
+  width: 50%;
+}
+
+.navbar {
+  background-color: rgb(54, 54, 54);
+}
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 16px;
+  column-gap: 24px;
+  width: 100%;
+  height: 6vh;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgb(54, 54, 54);
+  padding: 8px;
+  width: 10vw;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 54, 54);
+}
+.contact-title {
+  margin: 16px;
+  color: white;
+}
+.contact-socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.contact-socialmedia-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+}
+.contact-signature {
+  margin: 16px;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+  .formgroupterminos,
+.formulariomensaje,
+.formgroup-btnenviar {
+    grid-column: span 1;
+  }
+  .links {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .contacto {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "header" "steam" "steamid" "twitter" "twitterid" "gmail" "gmailid" "derechos";
+    row-gap: 30px;
+  }
+  video {
+    width: 80%;
+  }
+  .paradoxiframe > iframe {
+    width: 100%;
+  }
+  .poster > img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

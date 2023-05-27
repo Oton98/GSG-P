@@ -1,98 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSG Paradox</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="./css/csssheet.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSG Paradox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header id="topnavbarindex">
-    <nav>
-      <div class="menu">
-          <ul class="links">
-              <div class="logo">
-                  <img src="./img/logorm.jpg" alt="GSGP_Logo">
-              </div>
-              <li><a href="./index.html"> Inicio </a></li>
-              <div class="dropdown">
-                  <li><a href="#Juegos"> Juegos </a></li>
-                  <div class="dropdowncontent">
-                      <li><a href="./HOI4.html"> Hearts of Iron 4 </a></li>
-                      <li><a href="./EU4.html"> Europa Universalis 4 </a></li>
-                  </div>
-              </div>
-              <li><a href="./registro.html"  id="registro"> Registro </a></li>
-              <li><a href="./login.html" id="login"> Login </a></li>
-          </ul>
+  <section class="navbar">
+    <ul class="navbar-content">
+      <li>
+        <a href="./index.html"><img src="./img/logorms.jpg" alt="GSGP_Logo" class="logo"></a>
+      </li>
+      <li><a href="./index.html">Inicio</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Juegos</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-menu-element" href="./EU4.html">Europa Universalis IV</a>
+          <a class="dropdown-menu-element" href="./HOI4.html">Hearts of Iron IV</a>
+          <a class="dropdown-menu-element" href="./#">Stellaris</a>
+        </div>
+      </li>
+      <li><a href="./registro.html">Registro</a></li>
+      <li><a href="./login.html" id="login"> Login </a></li>
+    </ul>
+  </section>
+
+  <section class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
-  </nav>
-</header>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/eu4_title.jpg" class="d-block w-100" alt="Europa Universalis Poster">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/eu4_title.jpg" class="d-block w-100" alt="Europa Universalis Poster">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/hoi4_title.jpg" class="d-block w-100" alt="Hearts of Iron IV Poster">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/stellaris_title.jpg" class="d-block w-100" alt="Stellaris Poster">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="./img/hoi4_title.jpg" class="d-block w-100" alt="Hearts of Iron IV Poster">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/stellaris_title.jpg" class="d-block w-100" alt="Stellaris Poster">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+  </section>
 
-<h1> Paradox Interactive Developers</h1>
-<div class="paradoxiframe">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/zCQzBSLyEnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/vObN-7dfKOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/NOZlfdhxDp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <section class="paradox-videos">
 
-<footer>
-  <div class="contacto">
-      <p class="titulo">Contacto</p>
-      <div class="simbolo1"><i class="fa-brands fa-steam" id="steam"></i></div>
-      <div class="simbolo2"><i class="fa-brands fa-twitter"></i></div>
-      <div class="simbolo3"><i class="fa-brands fa-google"></i></div>
-      <a href="https://steamcommunity.com/id/oton/">
-          <div class="texto1">
-              <p>Chiche Gelblung</p>
-          </div>
-      </a>
-      <a href="https://twitter.com/magicdiago">
-          <div class="texto2">
-              <p>@magicdiago</p>
-          </div>
-      </a>
-      <a href="mailto:joaquindiago98@gmail.com">
-          <div class="texto3">
-              <p>joaquindiago98@gmail.com</p>
-          </div>
-      </a>
-      <p class="copyright">Todos los derechos reservados</p>
-  </div>
-</footer>
-    <script src="js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="paradox-videos-title">
+      <h1> Paradox Interactive Developers</h1>
+    </div>
+
+    <div class="paradox-videos-iframes">
+      <iframe width="448" height="252" src="https://www.youtube.com/embed/zCQzBSLyEnQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe width="448" height="252" src="https://www.youtube.com/embed/vObN-7dfKOs" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe width="448" height="252" src="https://www.youtube.com/embed/NOZlfdhxDp0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="contact">
+
+      <div class="contact-title">
+        <h3>Contacto</h3>
+      </div>
+
+      <div class="contact-socialmedia">
+
+        <div class="contact-socialmedia-name">
+          <i class="fa-brands fa-steam" id="steam"></i>
+          <a href="https://steamcommunity.com/id/oton/">Usuario sin Nombre</a>
+        </div>
+        <div class="contact-socialmedia-name">
+          <i class="fa-brands fa-twitter"></i>
+          <a href="https://twitter.com/magicdiago">@magicdiago </a>
+        </div>
+        <div class="contact-socialmedia-name">
+          <i class="fa-brands fa-google"></i>
+          <a href="mailto:joaquindiago98@gmail.com">joaquindiago98@gmail.com</a>
+        </div>
+
+      </div>
+
+      <div class="contact-signature">
+        <h3>Todos los derechos reservados</h3>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

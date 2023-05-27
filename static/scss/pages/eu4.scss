@@ -1,0 +1,190 @@
+.informacion {
+    @include flexbox(column, center, center);
+    row-gap: 24px;
+    margin: 32px;
+
+    &-title h2 {
+        color: white;
+    }
+
+    &-text {
+        color: white;
+        width: 70%;
+    }
+}
+
+.politica {
+    @include flexbox(column, center, center);
+    row-gap: 24px;
+    margin: 32px;
+
+
+    &-title h2 {
+        color: white;
+    }
+
+    &-corpus {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+
+        &-text {
+            display: flex;
+            color: white;
+            width: 100%;
+        }
+
+        &-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            row-gap: 16px;
+
+        }
+
+        &-img img {
+            max-width: 80%;
+        }
+
+    }
+}
+
+.economia {
+    @include flexbox(column, center, center);
+    row-gap: 24px;
+    margin: 32px;
+
+
+    &-title h2 {
+        color: white;
+    }
+
+    &-corpusX {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+
+        &-text {
+            display: flex;
+            color: white;
+            width: 100%;
+        }
+
+        &-imgX {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            row-gap: 16px;
+
+        }
+
+        &-imgX img {
+            max-width: 90%;
+        }
+
+    }
+
+    &-corpusY {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+
+        &-text {
+            display: flex;
+            color: white;
+            width: 100%;
+        }
+
+        &-imgY {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 24px 0px;
+            column-gap: 16px;
+
+        }
+
+        &-imgY img {
+            max-width: 90%;
+        }
+    }
+
+}
+
+.militar {
+    @include flexbox(column, center, center);
+    row-gap: 24px;
+    margin: 32px;
+
+
+    &-title h2 {
+        color: white;
+    }
+
+    &-corpusX {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+
+        &-text {
+            display: flex;
+            color: white;
+            width: 60%;
+        }
+
+        &-imgX {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            row-gap: 16px;
+
+        }
+
+        &-imgX img {
+            max-width: 90%;
+        }
+
+    }
+
+    &-corpusY {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 70%;
+
+        &-text {
+            display: flex;
+            color: white;
+            width: 100%;
+        }
+
+        &-imgY {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 24px 0px;
+            column-gap: 16px;
+
+        }
+
+        &-imgY img {
+            max-width: 90%;
+        }
+    }
+
+    
+}

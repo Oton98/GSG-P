@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px) {
+    .formulario {
+        grid-template-columns: 1fr;
+    }
+
+    .formgroupterminos,
+    .formulariomensaje,
+    .formgroup-btnenviar {
+        grid-column: span 1;
+    }
+
+
+
+    .links {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .contacto {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+            "header"
+            "steam"
+            "steamid"
+            "twitter"
+            "twitterid"
+            "gmail"
+            "gmailid"
+            "derechos";
+        row-gap: 30px;
+
+    }
+
+    video {
+        width: 80%;
+    }
+
+    .paradoxiframe>iframe {
+        width: 100%;
+    }
+
+    .poster>img {
+        width: 100%;
+    }
+}

@@ -2,318 +2,537 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EU4</title>
-    <link href="./css/csssheet2.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EU4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header id="topnavbar">
 
-
-
-    </header>
-
-    <div class="poster">
-        <img src="./img/Europa universalis.png">
-    </div>
-    <div class="videos">
-
-        <video src="./vids/eu4_vids/EU4_trailer.mp4" poster="./img/eu4_posters/eu4_poster.jpg" preload></video>
-        <video src="./vids/eu4_vids/EU4_ingame.mp4" poster="./img/eu4_posters/eu4_units.jpg" preload></video>
-        <video src="./vids/eu4_vids/EU4_map.mp4" poster="./img/eu4_posters/eu4_map.jpg" preload></video>
-
-    </div>
-
-    <div class="Maintext">
-        <div class="Informacion" id="Informacion">
-            <h2> Información </h2>
-            <p>Europa Universalis IV (EU4) es un gran juego de estrategia que te llevará a una aventura épica a través de una historia alternativa de la Tierra. Lo más importante a tener en cuenta es que el jugador es un líder omnipresente e inmortal de un país en el que los gobernantes y los ejércitos dentro de él seguirán todas tus órdenes. Europa Universalis IV es un juego en el que exploras, expandes, explotas y exterminas.
-                <br>
-                La fecha de inicio de 1444-11-11 (11 de noviembre de 1444) está configurada para ser lo más histórica posible. Sin embargo, tan pronto como el juego se reanuda, la historia a menudo se desvía y se convierte en una Tierra alternativa donde los jugadores pueden influir en el destino de las naciones. Si bien los gobernantes de diferentes dinastías pueden gobernar la nación, el jugador aún la guía hasta la fecha de finalización o hasta que se pierde la última provincia.
-                <br>
-                No hay condiciones de victoria específicas en Europa Universalis IV, y los jugadores son libres de tomar la historia en la dirección que deseen. Aunque existe la puntuación, solo se usa en algunos juegos de varios jugadores. Tu objetivo podría ser tomar una pequeña nación con una sola provincia y convertirla en una potencia, tomar el control de una nación históricamente poderosa y hacer que se desmorone, o cualquier otra cosa. Muchos jugadores adaptan sus juegos para obtener logros específicos. Los eventos del juego se basan en la historia real y, a menudo, se pueden investigar más a través de Wikipedia u otras fuentes. ¡Con suerte, también aprenderá sobre historia real y geografía!
-            </p>
+  <section class="navbar">
+    <ul class="navbar-content">
+      <li>
+        <a href="./index.html"><img src="./img/logorms.jpg" alt="GSGP_Logo" class="logo"></a>
+      </li>
+      <li><a href="./index.html">Inicio</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Juegos</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-menu-element" href="./EU4.html">Europa Universalis IV</a>
+          <a class="dropdown-menu-element" href="./HOI4.html">Hearts of Iron IV</a>
+          <a class="dropdown-menu-element" href="./#">Stellaris</a>
         </div>
-    
-        <div class="Politica" id="Politica">
-            <h2> Política </h2>
-        
-            <p>El botón más importante de este juego está en la esquina superior izquierda de la pantalla. Se verá como un
-                escudo con la bandera de tu nación. Cuando hace clic en este botón, aparece una ventana con muchas pestañas
-                diferentes en la parte superior, que muestra su líder y sus estadísticas, así como también los lugares de los
-                asesores vacantes. Antes de continuar y llenarlos, debe preocuparse por la moneda del juego. Vaya a la cuarta
-                pestaña y le mostrará la economía de la nación. La mayoría de las naciones comienzan el juego con una economía
-                que genera dinero en cada turno. Debes revisar periódicamente para asegurarte de que tu nación sea siempre
-                rentable. Ahora es el momento de volver a ese primer menú y contratar a algunos asesores. Hay tres espacios para
-                tres categorías diferentes de asesores: administrativo (representado en el juego con un papel y una pluma),
-                diplomático (representado en el juego con una paloma) y militar (representado en el juego con dos espadas
-                cruzadas). Solo puede tener uno de cada tipo. Si estás ganando menos de 4 ducados al mes no deberías contratar a
-                ningún asesor. Si gana menos de 30 ducados por mes, debe quedarse con un asesor con un nivel de 1. Esto se debe
-                a que los asesores aumentan el costo cuadráticamente según su rango. Diferentes asesores pueden proporcionar
-                diferentes bonificaciones en diferentes valores en el juego según su categoría. Por lo tanto, los asesores
-                militares pueden dar un impulso a su ejército, mientras que los asesores diplomáticos ofrecen más bonificaciones
-                en relación con otros países. Realmente no importa qué tipo de asesor elija por ahora, siempre y cuando
-                encuentre uno para cada categoría. Si lee la descripción en ellos, puede saber qué tipo de asesores son. Más
-                adelante, puede elegirlos para una necesidad específica, pero como todos son relativamente útiles, elija los más
-                baratos.
-            </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Menu.jpg">
-                <img src="./img/Eu4_tutorial/Diplomacia.jpg">
-            </div>
+      </li>
+      <li><a href="./registro.html">Registro</a></li>
+      <li><a href="./login.html" id="login"> Login </a></li>
+    </ul>
+  </section>
+
+  <div class="poster">
+    <img src="./img/Europa universalis.png">
+  </div>
+  <div class="videos">
+
+    <video src="./vids/eu4_vids/EU4_trailer.mp4" poster="./img/eu4_posters/eu4_poster.jpg" preload></video>
+    <video src="./vids/eu4_vids/EU4_ingame.mp4" poster="./img/eu4_posters/eu4_units.jpg" preload></video>
+    <video src="./vids/eu4_vids/EU4_map.mp4" poster="./img/eu4_posters/eu4_map.jpg" preload></video>
+
+  </div>
+
+  <div class="Maintext">
+    <div class="informacion" id="informacion">
+
+      <div class="informacion-title">
+        <h2> Información </h2>
+      </div>
+
+      <div class="informacion-text">Europa Universalis IV (EU4) es un gran juego de estrategia que te llevará a una
+        aventura épica a través de
+        una
+        historia alternativa de la Tierra. Lo más importante a tener en cuenta es que el jugador es un líder
+        omnipresente e inmortal de un país en el que los gobernantes y los ejércitos dentro de él seguirán todas tus
+        órdenes. Europa Universalis IV es un juego en el que exploras, expandes, explotas y exterminas.
+        <br>
+        <br>
+        La fecha de inicio de 1444-11-11 (11 de noviembre de 1444) está configurada para ser lo más histórica posible.
+        Sin embargo, tan pronto como el juego se reanuda, la historia a menudo se desvía y se convierte en una Tierra
+        alternativa donde los jugadores pueden influir en el destino de las naciones. Si bien los gobernantes de
+        diferentes dinastías pueden gobernar la nación, el jugador aún la guía hasta la fecha de finalización o hasta
+        que se pierde la última provincia.
+        <br>
+        <br>
+        No hay condiciones de victoria específicas en Europa Universalis IV, y los jugadores son libres de tomar la
+        historia en la dirección que deseen. Aunque existe la puntuación, solo se usa en algunos juegos de varios
+        jugadores. Tu objetivo podría ser tomar una pequeña nación con una sola provincia y convertirla en una potencia,
+        tomar el control de una nación históricamente poderosa y hacer que se desmorone, o cualquier otra cosa. Muchos
+        jugadores adaptan sus juegos para obtener logros específicos. Los eventos del juego se basan en la historia real
+        y, a menudo, se pueden investigar más a través de Wikipedia u otras fuentes. ¡Con suerte, también aprenderá
+        sobre historia real y geografía!
+      </div>
+
+    </div>
+
+    <div class="politica" id="politica">
+
+      <div class="politica-title">
+        <h2> Política </h2>
+      </div>
+
+      <div class="politica-corpus">
+        <div class="politica-corpus-text">
+          <p>El botón más importante de este juego está en la esquina superior izquierda de la pantalla. Se verá como un
+            escudo con la bandera de tu nación. Cuando se hace clic en este botón, aparece una ventana con muchas
+            pestañas
+            diferentes en la parte superior, que muestra su líder y sus estadísticas, así como también los lugares de
+            los
+            asesores vacantes. Antes de continuar y llenarlos, debe preocuparse por la moneda del juego.
+            <br>
+            <br>
+            Vaya a la
+            cuarta
+            pestaña y le mostrará la economía de la nación. La mayoría de las naciones comienzan el juego con una
+            economía
+            que genera dinero en cada turno. Debes revisar periódicamente para asegurarte de que tu nación sea siempre
+            rentable. Ahora es el momento de volver a ese primer menú y contratar a algunos asesores. Hay tres espacios
+            para
+            tres categorías diferentes de asesores: administrativo (representado en el juego con un papel y una pluma),
+            diplomático (representado en el juego con una paloma) y militar (representado en el juego con dos espadas
+            cruzadas). Solo puede tener uno de cada tipo. Si estás ganando menos de 4 ducados al mes no deberías
+            contratar
+            a
+            ningún asesor. Si gana menos de 30 ducados por mes, debe quedarse con un asesor con un nivel de 1. Esto se
+            debe
+            a que los asesores aumentan el costo cuadráticamente según su rango. Diferentes asesores pueden proporcionar
+            diferentes bonificaciones en diferentes valores en el juego según su categoría. Por lo tanto, los asesores
+            militares pueden dar un impulso a su ejército, mientras que los asesores diplomáticos ofrecen más
+            bonificaciones
+            en relación con otros países.
+            <br>
+            <br>
+            Realmente no importa qué tipo de asesor elija por ahora, siempre y cuando
+            encuentre uno para cada categoría. Si lee la descripción en ellos, puede saber qué tipo de asesores son. Más
+            adelante, puede elegirlos para una necesidad específica, pero como todos son relativamente útiles, elija los
+            más
+            baratos.
+          </p>
         </div>
-        
-        <div class="Economia" id="Economia">
-            <h2> Economía </h2>
-            <p> Ahora volvamos a la pantalla de economía. Debería notar algunos controles deslizantes en el lado derecho. Esto
-                te permite pagar más o menos por tus tropas, misioneros, barcos y colonias. Como regla general, los controles
-                deslizantes de misionero y colonia siempre deben estar al máximo a la derecha. Esto asegura que toman la menor
-                cantidad de tiempo y se pueden hacer en una cantidad de tiempo razonable. Redúzcalos solo si está desesperado
-                por obtener ingresos; no tenga miedo de tomar préstamos de vez en cuando en su lugar. Tenga en cuenta que estos
-                no cuestan nada si no tiene colonos o misioneros activos, en cuyo caso reducirlos no ayudará de todos modos.
-                <br>
-                El siguiente en la línea es su control deslizante naval. Puedes darte el lujo de dejar que baje al 75% o incluso
-                al 50% cuando estés en paz. Esto reducirá significativamente el costo de su armada, pero tendrá un costo de
-                comercio de poder de barcos ligeros y una moral disminuida. Puede ser prudente mantener el mantenimiento naval
-                al 100%, ya que directamente al comienzo de las guerras, sus flotas que no están en el puerto pueden hundirse
-                con bastante rapidez. También es importante recordar que los costos de la reducción del poder comercial de sus
-                naves ligeras, lo que afecta sus ingresos comerciales, pueden superar los beneficios inmediatos de la reducción
-                del gasto de mantenimiento si posee una flota significativa de naves ligeras. Si tienes la expansión El arte de
-                la guerra, deberías usar flotas de naftalina mientras estás en paz.
-                <br>
-                Por último, está el control deslizante de mantenimiento del ejército. Este es el más ajustable; en la guerra,
-                siempre debe estar al 100 %, pero en tiempos de paz, se puede reducir de manera segura al rango del 50 % al 75
-                %. Con experiencia, podrá juzgar cuándo la amenaza de los enemigos, los rebeldes y los nativos es lo
-                suficientemente baja como para que sea seguro enviarla hasta el 50 %. Con un mantenimiento reducido, las
-                unidades tendrán mucha menos moral y no se repondrán tan rápido (no al 0 %). Las unidades con baja moral son
-                menos efectivas en combate, por lo que es arriesgado reducir el mantenimiento del ejército con ejércitos
-                estacionados en provincias con disturbios o en la frontera de un invasor potencial. Reducir el mantenimiento del
-                ejército por debajo del 75 % o incluso del 50 % puede servir como un gran impulso para la economía del juego
-                temprano, sin embargo, es importante estacionar los ejércitos en este caso lejos de las fronteras donde los
-                ejércitos enemigos y los rebeldes extranjeros pueden cruzar y fuera de las provincias con disturbios. para
-                evitar que sean destruidos.
+
+        <div class="politica-corpus-img">
+          <img src="./img/Eu4_tutorial/Menu.jpg">
+          <img src="./img/Eu4_tutorial/Diplomacia.jpg">
+        </div>
+
+      </div>
+
+      <div class="economia" id="economia">
+
+        <div class="economia-title">
+          <h2> Economia </h2>
+        </div>
+
+        <div class="economia-corpusX">
+          <div class="economia-corpusX-text">
+            <p> Ahora volvamos a la pantalla de economía. Debería notar algunos controles deslizantes en el lado
+              derecho.
+              Esto
+              te permite pagar más o menos por tus tropas, misioneros, barcos y colonias. Como regla general, los
+              controles
+              deslizantes de misionero y colonia siempre deben estar al máximo a la derecha. Esto asegura que toman la
+              menor
+              cantidad de tiempo y se pueden hacer en una cantidad de tiempo razonable. Redúzcalos solo si está
+              desesperado
+              por obtener ingresos; no tenga miedo de tomar préstamos de vez en cuando en su lugar. Tenga en cuenta que
+              estos
+              no cuestan nada si no tiene colonos o misioneros activos, en cuyo caso reducirlos no ayudará de todos
+              modos.
+              <br>
+              <br>
+              El siguiente en la línea es su control deslizante naval. Puedes darte el lujo de dejar que baje al 75% o
+              incluso
+              al 50% cuando estés en paz. Esto reducirá significativamente el costo de su armada, pero tendrá un costo
+              de
+              comercio de poder de barcos ligeros y una moral disminuida. Puede ser prudente mantener el mantenimiento
+              naval
+              al 100%, ya que directamente al comienzo de las guerras, sus flotas que no están en el puerto pueden
+              hundirse
+              con bastante rapidez. También es importante recordar que los costos de la reducción del poder comercial de
+              sus
+              naves ligeras, lo que afecta sus ingresos comerciales, pueden superar los beneficios inmediatos de la
+              reducción
+              del gasto de mantenimiento si posee una flota significativa de naves ligeras. Si tienes la expansión El
+              arte
+              de
+              la guerra, deberías usar flotas de naftalina mientras estás en paz.
+              <br>
+              <br>
+              Por último, está el control deslizante de mantenimiento del ejército. Este es el más ajustable; en la
+              guerra,
+              siempre debe estar al 100 %, pero en tiempos de paz, se puede reducir de manera segura al rango del 50 %
+              al 75
+              %. Con experiencia, podrá juzgar cuándo la amenaza de los enemigos, los rebeldes y los nativos es lo
+              suficientemente baja como para que sea seguro enviarla hasta el 50 %. Con un mantenimiento reducido, las
+              unidades tendrán mucha menos moral y no se repondrán tan rápido (no al 0 %). Las unidades con baja moral
+              son
+              menos efectivas en combate, por lo que es arriesgado reducir el mantenimiento del ejército con ejércitos
+              estacionados en provincias con disturbios o en la frontera de un invasor potencial. Reducir el
+              mantenimiento
+              del
+              ejército por debajo del 75 % o incluso del 50 % puede servir como un gran impulso para la economía del
+              juego
+              temprano, sin embargo, es importante estacionar los ejércitos en este caso lejos de las fronteras donde
+              los
+              ejércitos enemigos y los rebeldes extranjeros pueden cruzar y fuera de las provincias con disturbios. para
+              evitar que sean destruidos.
             </p>
+          </div>
+
+          <div class="economia-corpusX-imgX">
             <img src="./img/Eu4_tutorial/Comercio.jpg">
             <img src="./img/Eu4_tutorial/Economia.jpg">
+          </div>
+
+        </div>
+
+        <div class="economia-corpusY">
+          <div class="economia-corpusY-text">
             <p>
-                Por otro lado, nuestra industria dependerá de la cantidad de fábrica que uno tenga. Estas se
-                dividen
-                en 2, fábricas civiles y fábricas militares. Las primeras permiten construir varios tipos de
-                edificios, como son
-                las mismas fábricas, aeropuertos, radares, infraestructura étc. Cada edificio que se quiera
-                construir se realiza sobre un territorio, el cual tiene x cantidades de slots para contruir.
-                Este
-                slot territorial depende
-                en gran medida del desarrollo histórico de la provincia. No es lo mismo constuir en Hannover o
-                Berlin que construir en Siberia, el primero podrá alcanzar un slot máximo de 20-25 edificios por
-                provincia y el segundo,
-                es posible que llegué a 7 slots antes el final de la partida. Una forma de ampliar la cantidad
-                de
-                slots es por tecnología o por desarrollo de infraestuctura hasta que alcance un nivel de 5/5,
-                que
-                gastando 100 de poder político permite crear un slot más.
+              Por otro lado, nuestra industria dependerá de la cantidad de fábrica que uno tenga. Estas se
+              dividen
+              en 2, fábricas civiles y fábricas militares. Las primeras permiten construir varios tipos de
+              edificios, como son
+              las mismas fábricas, aeropuertos, radares, infraestructura étc. Cada edificio que se quiera
+              construir se realiza sobre un territorio, el cual tiene x cantidades de slots para contruir.
+              Este
+              slot territorial depende
+              en gran medida del desarrollo histórico de la provincia. No es lo mismo constuir en Hannover o
+              Berlin que construir en Siberia, el primero podrá alcanzar un slot máximo de 20-25 edificios por
+              provincia y el segundo,
+              es posible que llegué a 7 slots antes el final de la partida. Una forma de ampliar la cantidad
+              de
+              slots es por tecnología o por desarrollo de infraestuctura hasta que alcance un nivel de 5/5,
+              que
+              gastando 100 de poder político permite crear un slot más.
             </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Construcciones.jpg">
-                <img src="./img/Eu4_tutorial/Provincia.jpg">
-            </div>
+          </div>
+
+
+          <div class="economia-corpusY-imgY">
+            <img src="./img/Eu4_tutorial/Construcciones.jpg">
+            <img src="./img/Eu4_tutorial/Provincia.jpg">
+          </div>
+
+        </div>
+
+        <div class="economia-corpusY">
+          <div class="economia-corpusY-text">
             <p>
-                Las fábricas militares por otro lado, se encargarán de realizar equipo para nuestro ejército
-                mediante el uso de los recursos descriptos anteriormente. En caso de que los recursos sean
-                insufientes, esto afectará la producción reduciendo su velocidad dependiendo
-                de cuántos recursos le falten. Si se hicieran con 5 fábrica 200 rifles con 10 de acero al día,
-                en
-                caso de tener menos acero del necesario, el número de rifles por día descenderá. Esto podría
-                provocar que las unidades desplegadas o en entrenamiento se vean perjudicas
-                por la falta de equipo bajando drásticamente su efectividad en combate.
+              Las fábricas militares por otro lado, se encargarán de realizar equipo para nuestro ejército
+              mediante el uso de los recursos descriptos anteriormente. En caso de que los recursos sean
+              insufientes, esto afectará la producción reduciendo su velocidad dependiendo
+              de cuántos recursos le falten. Si se hicieran con 5 fábrica 200 rifles con 10 de acero al día,
+              en
+              caso de tener menos acero del necesario, el número de rifles por día descenderá. Esto podría
+              provocar que las unidades desplegadas o en entrenamiento se vean perjudicas
+              por la falta de equipo bajando drásticamente su efectividad en combate.
             </p>
+          </div>
+          <div class="economia-corpusY-imgY">
             <img src="./img/Eu4_tutorial/Bienes y consumo.jpg">
+          </div>
+        </div>
+
+        <div class="economia-corpusY">
+          <div class="economia-corpusY-text">
             <p>
-                Finalmente, podemos hablar del desarrollo tecnologico, el cual nos permite incrementar mediante
-                beneficios de una gran gama de aspecto del país. En la pestaña de investigaciones, uno dispone
-                de
-                como mínimo, 2 slots de investigación, los cuales mediante decisiones, va a poder
-                ampliarlos hasta un máximo de 5 en los países genéricos, algunos pueden tener 6 y EEUU puede
-                alcanzar los 7 slots. Cada slot puede desarrollar una tecnología a la vez, aunque el juego
-                permite
-                cambiar en medio de la investigación, de una investigación a otra valga la redundancia.
-                La tecnología se agrupa en subpestañas, donde podemos encontrar algunas que se enfocan al
-                desarrollo
-                tecnológico y económico como puede ser "Electrónica" e "Industria" y que permiten aumentar el
-                tiempo
-                de investigación o el tiempo de construcción de los edificios o equipos.
-                Otras pestañas estas enfocadas a las fuerzas armadas y su tecnológia a investigar permite
-                aumentar
-                el poder de combate de estas mediante la adquisición de armas y equipos más avanzados.
+              Finalmente, podemos hablar del desarrollo tecnologico, el cual nos permite incrementar mediante
+              beneficios de una gran gama de aspecto del país. En la pestaña de investigaciones, uno dispone
+              de
+              como mínimo, 2 slots de investigación, los cuales mediante decisiones, va a poder
+              ampliarlos hasta un máximo de 5 en los países genéricos, algunos pueden tener 6 y EEUU puede
+              alcanzar los 7 slots. Cada slot puede desarrollar una tecnología a la vez, aunque el juego
+              permite
+              cambiar en medio de la investigación, de una investigación a otra valga la redundancia.
+              La tecnología se agrupa en subpestañas, donde podemos encontrar algunas que se enfocan al
+              desarrollo
+              tecnológico y económico como puede ser "Electrónica" e "Industria" y que permiten aumentar el
+              tiempo
+              de investigación o el tiempo de construcción de los edificios o equipos.
+              Otras pestañas estas enfocadas a las fuerzas armadas y su tecnológia a investigar permite
+              aumentar
+              el poder de combate de estas mediante la adquisición de armas y equipos más avanzados.
             </p>
+          </div>
+
+          <div class="economia-corpusY-imgY">
             <img src="./img/Eu4_tutorial/Tecnología.jpg">
+          </div>
+
         </div>
-        
-        <div class="Militar" id="Militar">
-            <h2> Militar </h2>
-            <p>
-                Para un principiante, puede que no siempre esté claro dónde invadir a continuación. Teniendo en cuenta que
-                necesita invertir tiempo y mano de obra en hacer reclamos y cambiar alianzas, no querrá desperdiciar todo ese
-                tiempo y energía para obtener algunas provincias subdesarrolladas que son inútiles y causan más problemas de los
-                que valen. Los adictos a la historia pueden comprender aproximadamente lo que deben hacer, pero el problema está
-                en los detalles. Los muchos modos de mapa pueden ser desalentadores, pero hay algunos que pueden ayudarte a
-                decirte dónde quieres reclamar y conquistar.
-                <br>
-                Antes de llegar a eso, la pestaña de Misiones y Decisiones serán los primeros lugares que querrás buscar, con
-                este wiki como complemento a eso. Algunas naciones como España tendrán misiones especiales, mientras que otros
-                países tendrán directivas más genéricas. Esto incluye misiones para colonizar ciertas provincias en el nuevo
-                mundo o tomar ciertas Áreas para su Compañía Comercial. Mientras tanto, en su lista de decisiones, puede ser
-                elegible para formar un nuevo país si toma ciertas provincias. Un ejemplo es Italia, donde después de formar la
-                nación obtienes automáticamente un reclamo permanente sobre todas las provincias de la región italiana. Esto
-                disminuye la expansión agresiva con la que puede tener que lidiar. Estas naciones formables también pueden
-                brindarle oportunidades para cambiar los ideales, el tipo de gobierno y el rango de gobierno de sus países, e
-                incluso pueden cambiar la forma en que otras naciones lo tratan.
-                <br>
-                A continuación, tenemos nuestros modos de mapa confiables, el más importante de los cuales es su modo de mapa
-                Comercial. Esto muestra las regiones comerciales, las rutas comerciales, el poder comercial y las provincias que
-                tienen modificadores especiales de bonificación comercial. No es necesario que comprendas completamente cómo
-                funciona el comercio en el juego todavía, pero basta con decir que quieres concentrarte en controlar tu nodo
-                comercial principal mientras tomas esas provincias comerciales mejoradas que están dentro o "por encima" de tu
-                región comercial ( en una región comercial que desemboca en la suya). Sin entrar en demasiados detalles, querrá
-                identificar los nodos comerciales de Génova, Venecia y el Canal de la Mancha. Estos son los tres nodos finales
-                del juego y todo el comercio fluye hacia estos nodos. Puede identificarlos por el hecho de que no hay comercio
-                que salga de estos nodos, solo fluye hacia ellos. Si puede, tome el control de estos nodos y conviértalos en su
-                nodo comercial local. Si no puede, por ejemplo, si se encuentra en Asia, siempre querrá intentar recolectar
-                comercio de un nodo comercial con solo una ruta comercial que se aleje de él, ya que hay pocos incentivos para
-                que otras naciones dirija el comercio en un solo -nodo comercial de vía, a diferencia de un nodo que se divide
-                en dos, tres o cuatro rutas comerciales salientes; varios países lucharán por el control de estos nodos de
-                "unión" y quedará poco comercio en el nodo para ser recolectado.
-                <br>
-                El siguiente grupo de modos de mapa que le indicará dónde expandirse son los modos de mapa Área, Regiones y
-                Cultura. Los componentes básicos de su país son las provincias, que están organizadas en Áreas y Regiones. En el
-                caso del Sacro Imperio Romano Germánico y el Imperio de China, existen las llamadas "Súper Regiones" no
-                oficiales, pero aún no son tan importantes, solo sé que existen pero en realidad no tienen un modo de mapa. Las
-                áreas son muy importantes porque controlar lo suficiente del desarrollo en un área te permite convertirlo en un
-                estado. Esto es importante por varias razones, pero en la que nos centraremos aquí es que está limitado a una
-                cierta cantidad de Estados. El número aumentará con el tiempo, pero si se expande a demasiados "medios
-                territorios", no hará crecer su país de manera eficiente y estirará sus recursos y efectivo más de lo que
-                debería. En cuanto a Regiones y Cultura, ambos van de la mano ya que la mayoría de los grupos culturales se
-                quedan en una región específica. Aún debe verificar ambos ya que hay excepciones. Las regiones de control son
-                importantes ya que normalmente hay ventajas geográficas como montañas, costas o ríos que se encuentran en los
-                bordes de las regiones. La cultura es importante ya que obtendrá una bonificación por unir su cultura bajo un
-                solo estandarte y es más fácil integrar a los miembros de su grupo cultural que a los que están fuera de él.
-                <br>
-                Los últimos modos de mapa para usar para determinar la expansión son Religión, Terreno simple, Fuertes, Valor
-                comercial, Bienes comerciales y Desarrollo. Las áreas que son de tu religión son más fáciles de someter, pero
-                obtienes una expansión menos agresiva por conquistar paganos y herejes e incluso puedes obtener bonificaciones
-                por convertirlos. El terreno simple es una buena manera de determinar qué tan defendibles son tus fronteras,
-                combinado con el modo de mapa Fuertes, también te permite planificar tu ataque y tu mejor defensa. Si bien es
-                más avanzado, los modos Valor comercial, Bienes comerciales y Mapa de desarrollo se pueden usar para identificar
-                fácilmente provincias de extrema importancia. Principalmente provincias productoras de oro y de alto desarrollo.
-            </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Ejercito.jpg">
-                <img src="./img/Eu4_tutorial/Almirantes.jpg">
-            </div>
-            <p>
-                Una vez desplegadas, las divisiones o unidades necesitarán un comadante capaz de gestionarlas
-                con
-                efectividad, que de otra manera, las haría más débiles. Así, en la fuerza aérea contamos con la
-                presencia de los ases, en la naval de los almirantes y en en el ejército sobre comandantes y
-                mariscales de campo. Cada uno de ellos tienen ciertas caracteristicas que
-                pueden ser entrenables y le agregan a las unidades aumentos en sus caracteristicas operativas.
-                Algunos nombres famosos que podemos encontrar son los de Guderian y Rommel, Zhukov y
-                Rokossovski,
-                Patton y MacArthur.
-                En los combates terrestres, es necesario agrupar las unidades en comandantes, que pueden
-                organizar
-                eficientemente hasta un máximo de 24 divisiones. Luego, un mariscal puede organizas
-                eficientemente
-                hasta un máximo de 5 comandantes. Estos máximos se puede puede agrandar a traves de ciertos
-                logros que puede adquirir los comandantes y mariscales combatiendo, hasta un máximo de 30 en el
-                primer caso y en el segundo hasta un máximo de 7. El máximo de aviones lo va a determinar el
-                nivel
-                del aeropuerto (nivel 1 a 10) y para el tema de los barcos no hay máximo aunque puede
-                condicionar la
-                velocidad de una flota y su funcionalidad.
-            </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Generales.jpg">
-                <img src="./img/Eu4_tutorial/Almirantes2.jpg">
-            </div>
-            <p>
-                En el combate terrestre, el juego permite automatizar los enfrentamiento mediante el trazamiento
-                de
-                una linea de frente, su ejecución y la asignación de un plan de batalla. Esto permitirá que las
-                unidades, una vez comience la guerra, ataquen automáticamente las posiciones enemigas. Hay que
-                tener
-                en cuenta que cada agrupacion de unidades se puede determinar el enfoque de combate,
-                pudiendo ser este agresivo, nivelado o seguro. En el primer caso, las unidades atacaran sin
-                importar
-                qué, lo que puede generar una importante cantidad de bajas humanas y materiales pero necesarias
-                para
-                realizar una avance. En caso de ser nivelado, atacaran midiendo el resultado se sus combates y
-                dependen si tienen superioridad o no en comparación con el enemigo. Un ataque seguro
-                se refiere a que sólo atacarán si la ventaja es total. En caso de que querramos microgestionar
-                los
-                combates de las unidades, tambien es posible seleccionando unidades y realizar ataques manuales.
-                Si
-                se realizadó una linea de frente, una vez realizados con exito o fracaso sus objetivos
-                realizados de
-                forma manual, estos regresarán a la linea de frente y
-                seguirán con sus antiguas órdenes.
-            </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Combate.jpg">
-                <img src="./img/Eu4_tutorial/Info Combate.jpg">
-            </div>
-            <p>
-                A su vez, las tropa terrestres podran recibir fuertes beneficios en el combate si son apoyados
-                con
-                bombarderos o aviones de apoyo ceracno, pero para ello, es necesario asegurar el cielo mediante
-                cazas y asi evitar que los primeros sean derribados fácilmente.
-                Algunos países como el Reino Unido o Japón, tienen ventajas por su condición insular, lo cual
-                para
-                hacerlos capitular es necesario realizar una invasión naval. Entonces es cuando es requerido
-                tener
-                una flota potente para poder asegurar los mares por donde pasarán nuestras fuerzas de invasión.
-                Para asegurar un mar es necesario tener una flota que venza a la del enemigo en caso de que esta
-                intercepte los convoyes que son usados para la invasión. La misma puede ser apoyada por aviones,
-                pero no aportaran demasiado a la seguridad marítima. También se pueden colocar radares para
-                detectar
-                la ubicación de la flota enemiga y poder interceptarla.
-            </p>
-            <div>
-                <img src="./img/Eu4_tutorial/Combate Naval.jpg">
-                <img src="./img/Eu4_tutorial/Info Combate Naval.jpg">
-            </div>
+
+      </div>
+
+      <div class="militar" id="militar">
+
+        <div class="militar-title">
+          <h2> Militar </h2>
         </div>
+
+        <div class="militar-corpusX">
+          <div class="militar-corpusX-text">
+            <p>
+              Para un principiante, puede que no siempre esté claro dónde invadir a continuación. Teniendo en cuenta que
+              necesita invertir tiempo y mano de obra en hacer reclamos y cambiar alianzas, no querrá desperdiciar todo
+              ese
+              tiempo y energía para obtener algunas provincias subdesarrolladas que son inútiles y causan más problemas
+              de
+              los
+              que valen. Los adictos a la historia pueden comprender aproximadamente lo que deben hacer, pero el
+              problema
+              está
+              en los detalles. Los muchos modos de mapa pueden ser desalentadores, pero hay algunos que pueden ayudarte
+              a
+              decirte dónde quieres reclamar y conquistar.
+              <br>
+              <br>
+              Antes de llegar a eso, la pestaña de Misiones y Decisiones serán los primeros lugares que querrás buscar,
+              con
+              este wiki como complemento a eso. Algunas naciones como España tendrán misiones especiales, mientras que
+              otros
+              países tendrán directivas más genéricas. Esto incluye misiones para colonizar ciertas provincias en el
+              nuevo
+              mundo o tomar ciertas Áreas para su Compañía Comercial. Mientras tanto, en su lista de decisiones, puede
+              ser
+              elegible para formar un nuevo país si toma ciertas provincias. Un ejemplo es Italia, donde después de
+              formar
+              la
+              nación obtienes automáticamente un reclamo permanente sobre todas las provincias de la región italiana.
+              Esto
+              disminuye la expansión agresiva con la que puede tener que lidiar. Estas naciones formables también pueden
+              brindarle oportunidades para cambiar los ideales, el tipo de gobierno y el rango de gobierno de sus
+              países,
+              e
+              incluso pueden cambiar la forma en que otras naciones lo tratan.
+              <br>
+              <br>
+              A continuación, tenemos nuestros modos de mapa confiables, el más importante de los cuales es su modo de
+              mapa
+              Comercial. Esto muestra las regiones comerciales, las rutas comerciales, el poder comercial y las
+              provincias
+              que
+              tienen modificadores especiales de bonificación comercial. No es necesario que comprendas completamente
+              cómo
+              funciona el comercio en el juego todavía, pero basta con decir que quieres concentrarte en controlar tu
+              nodo
+              comercial principal mientras tomas esas provincias comerciales mejoradas que están dentro o "por encima"
+              de
+              tu
+              región comercial ( en una región comercial que desemboca en la suya). Sin entrar en demasiados detalles,
+              querrá
+              identificar los nodos comerciales de Génova, Venecia y el Canal de la Mancha. Estos son los tres nodos
+              finales
+              del juego y todo el comercio fluye hacia estos nodos. Puede identificarlos por el hecho de que no hay
+              comercio
+              que salga de estos nodos, solo fluye hacia ellos. Si puede, tome el control de estos nodos y conviértalos
+              en
+              su
+              nodo comercial local. Si no puede, por ejemplo, si se encuentra en Asia, siempre querrá intentar
+              recolectar
+              comercio de un nodo comercial con solo una ruta comercial que se aleje de él, ya que hay pocos incentivos
+              para
+              que otras naciones dirija el comercio en un solo -nodo comercial de vía, a diferencia de un nodo que se
+              divide
+              en dos, tres o cuatro rutas comerciales salientes; varios países lucharán por el control de estos nodos de
+              "unión" y quedará poco comercio en el nodo para ser recolectado.
+              <br>
+              <br>
+              El siguiente grupo de modos de mapa que le indicará dónde expandirse son los modos de mapa Área, Regiones
+              y
+              Cultura. Los componentes básicos de su país son las provincias, que están organizadas en Áreas y Regiones.
+              En
+              el
+              caso del Sacro Imperio Romano Germánico y el Imperio de China, existen las llamadas "Súper Regiones" no
+              oficiales, pero aún no son tan importantes, solo sé que existen pero en realidad no tienen un modo de
+              mapa.
+              Las
+              áreas son muy importantes porque controlar lo suficiente del desarrollo en un área te permite convertirlo
+              en
+              un
+              estado. Esto es importante por varias razones, pero en la que nos centraremos aquí es que está limitado a
+              una
+              cierta cantidad de Estados. El número aumentará con el tiempo, pero si se expande a demasiados "medios
+              territorios", no hará crecer su país de manera eficiente y estirará sus recursos y efectivo más de lo que
+              debería. En cuanto a Regiones y Cultura, ambos van de la mano ya que la mayoría de los grupos culturales
+              se
+              quedan en una región específica. Aún debe verificar ambos ya que hay excepciones. Las regiones de control
+              son
+              importantes ya que normalmente hay ventajas geográficas como montañas, costas o ríos que se encuentran en
+              los
+              bordes de las regiones. La cultura es importante ya que obtendrá una bonificación por unir su cultura bajo
+              un
+              solo estandarte y es más fácil integrar a los miembros de su grupo cultural que a los que están fuera de
+              él.
+              <br>
+              <br>
+              Los últimos modos de mapa para usar para determinar la expansión son Religión, Terreno simple, Fuertes,
+              Valor
+              comercial, Bienes comerciales y Desarrollo. Las áreas que son de tu religión son más fáciles de someter,
+              pero
+              obtienes una expansión menos agresiva por conquistar paganos y herejes e incluso puedes obtener
+              bonificaciones
+              por convertirlos. El terreno simple es una buena manera de determinar qué tan defendibles son tus
+              fronteras,
+              combinado con el modo de mapa Fuertes, también te permite planificar tu ataque y tu mejor defensa. Si bien
+              es
+              más avanzado, los modos Valor comercial, Bienes comerciales y Mapa de desarrollo se pueden usar para
+              identificar
+              fácilmente provincias de extrema importancia. Principalmente provincias productoras de oro y de alto
+              desarrollo.
+            </p>
+          </div>
+          <div class="militar-corpusX-imgX">
+            <img src="./img/Eu4_tutorial/Ejercito.jpg">
+            <img src="./img/Eu4_tutorial/Almirantes.jpg">
+          </div>
+
         </div>
-        </main>
-<footer>
-    <div class="contacto">
-        <p class="titulo">Contacto</p>
-        <div class="simbolo1"><i class="fa-brands fa-steam" id="steam"></i></div>
-        <div class="simbolo2"><i class="fa-brands fa-twitter"></i></div>
-        <div class="simbolo3"><i class="fa-brands fa-google"></i></div>
-        <a href="https://steamcommunity.com/id/oton/">
-            <div class="texto1">
-                <p>Chiche Gelblung</p>
-            </div>
-        </a>
-        <a href="https://twitter.com/magicdiago">
-            <div class="texto2">
-                <p>@magicdiago</p>
-            </div>
-        </a>
-        <a href="mailto:joaquindiago98@gmail.com">
-            <div class="texto3">
-                <p>joaquindiago98@gmail.com</p>
-            </div>
-        </a>
-        <p class="copyright">Todos los derechos reservados</p>
+
+        <div class="militar-corpusY">
+          <div class="militar-corpusY-text">
+            <p>
+              Una vez desplegadas, las divisiones o unidades necesitarán un comadante capaz de gestionarlas
+              con
+              efectividad, que de otra manera, las haría más débiles. Así, en la fuerza aérea contamos con la
+              presencia de los ases, en la naval de los almirantes y en en el ejército sobre comandantes y
+              mariscales de campo. Cada uno de ellos tienen ciertas caracteristicas que
+              pueden ser entrenables y le agregan a las unidades aumentos en sus caracteristicas operativas.
+              Algunos nombres famosos que podemos encontrar son los de Guderian y Rommel, Zhukov y
+              Rokossovski,
+              Patton y MacArthur.
+              En los combates terrestres, es necesario agrupar las unidades en comandantes, que pueden
+              organizar
+              eficientemente hasta un máximo de 24 divisiones. Luego, un mariscal puede organizas
+              eficientemente
+              hasta un máximo de 5 comandantes. Estos máximos se puede puede agrandar a traves de ciertos
+              logros que puede adquirir los comandantes y mariscales combatiendo, hasta un máximo de 30 en el
+              primer caso y en el segundo hasta un máximo de 7. El máximo de aviones lo va a determinar el
+              nivel
+              del aeropuerto (nivel 1 a 10) y para el tema de los barcos no hay máximo aunque puede
+              condicionar la
+              velocidad de una flota y su funcionalidad.
+            </p>
+          </div>
+
+          <div class="militar-corpusY-imgY">
+            <img src="./img/Eu4_tutorial/Generales.jpg">
+            <img src="./img/Eu4_tutorial/Almirantes2.jpg">
+          </div>
+
+        </div>
+
+        <div class="militar-corpusY">
+          <div class="militar-corpusY-text">
+            <p>
+              En el combate terrestre, el juego permite automatizar los enfrentamiento mediante el trazamiento
+              de
+              una linea de frente, su ejecución y la asignación de un plan de batalla. Esto permitirá que las
+              unidades, una vez comience la guerra, ataquen automáticamente las posiciones enemigas. Hay que
+              tener
+              en cuenta que cada agrupacion de unidades se puede determinar el enfoque de combate,
+              pudiendo ser este agresivo, nivelado o seguro. En el primer caso, las unidades atacaran sin
+              importar
+              qué, lo que puede generar una importante cantidad de bajas humanas y materiales pero necesarias
+              para
+              realizar una avance. En caso de ser nivelado, atacaran midiendo el resultado se sus combates y
+              dependen si tienen superioridad o no en comparación con el enemigo. Un ataque seguro
+              se refiere a que sólo atacarán si la ventaja es total. En caso de que querramos microgestionar
+              los
+              combates de las unidades, tambien es posible seleccionando unidades y realizar ataques manuales.
+              Si
+              se realizadó una linea de frente, una vez realizados con exito o fracaso sus objetivos
+              realizados de
+              forma manual, estos regresarán a la linea de frente y
+              seguirán con sus antiguas órdenes.
+            </p>
+          </div>
+          <div class="militar-corpusY-imgY">
+            <img src="./img/Eu4_tutorial/Combate.jpg">
+            <img src="./img/Eu4_tutorial/Info Combate.jpg">
+          </div>
+        </div>
+
+        <div class="militar-corpusY">
+          <div class="militar-corpusY-text">
+            <p>
+              A su vez, las tropa terrestres podran recibir fuertes beneficios en el combate si son apoyados
+              con
+              bombarderos o aviones de apoyo ceracno, pero para ello, es necesario asegurar el cielo mediante
+              cazas y asi evitar que los primeros sean derribados fácilmente.
+              Algunos países como el Reino Unido o Japón, tienen ventajas por su condición insular, lo cual
+              para
+              hacerlos capitular es necesario realizar una invasión naval. Entonces es cuando es requerido
+              tener
+              una flota potente para poder asegurar los mares por donde pasarán nuestras fuerzas de invasión.
+              Para asegurar un mar es necesario tener una flota que venza a la del enemigo en caso de que esta
+              intercepte los convoyes que son usados para la invasión. La misma puede ser apoyada por aviones,
+              pero no aportaran demasiado a la seguridad marítima. También se pueden colocar radares para
+              detectar
+              la ubicación de la flota enemiga y poder interceptarla.
+            </p>
+          </div>
+          <div class="militar-corpusY-imgY">
+            <img src="./img/Eu4_tutorial/Combate Naval.jpg">
+            <img src="./img/Eu4_tutorial/Info Combate Naval.jpg">
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
-    
+
+    <footer>
+
+      <div class="contact">
+
+        <div class="contact-title">
+          <h3>Contacto</h3>
+        </div>
+
+        <div class="contact-socialmedia">
+
+          <div class="contact-socialmedia-name">
+            <i class="fa-brands fa-steam" id="steam"></i>
+            <a href="https://steamcommunity.com/id/oton/">Usuario sin Nombre</a>
+          </div>
+          <div class="contact-socialmedia-name">
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https://twitter.com/magicdiago">@magicdiago </a>
+          </div>
+          <div class="contact-socialmedia-name">
+            <i class="fa-brands fa-google"></i>
+            <a href="mailto:joaquindiago98@gmail.com">joaquindiago98@gmail.com</a>
+          </div>
+
+        </div>
+
+        <div class="contact-signature">
+          <h3>Todos los derechos reservados</h3>
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
     <script src="./js/javascriptsheet.js"></script>
     <script src="js/index.js"></script>
 </body>
