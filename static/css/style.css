@@ -225,11 +225,19 @@ i {
   font-size: 24px;
 }
 
-.poster {
+.poster-eu4 {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("../img/wallpaper6.jpg");
+  background-size: cover;
+}
+
+.poster-hoi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/wallpaper2.jpg");
   background-size: cover;
 }
 
@@ -243,6 +251,24 @@ i {
 
 video {
   width: 50%;
+}
+
+.formularioinputlogin {
+  width: 100%;
+  background: rgb(26, 71, 9);
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  height: 45px;
+  line-height: 45;
+  padding: 0 40px 0 10px;
+  transition: 0.3s ease all;
+}
+
+.formularioinputlogin:focus {
+  border: 3px solid rgb(240, 240, 240);
+  outline: none;
+  box-shadow: 3px 0 px 30 px rgba(163, 163, 163, 0.4);
 }
 
 .navbar {

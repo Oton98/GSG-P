@@ -1,8 +1,5 @@
 // topnavbar
 
-
-
-
 // video
 const videos = document.getElementsByTagName("video"); //Obtiene todos los videos como un array
 

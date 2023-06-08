@@ -11,13 +11,7 @@ app.secret_key = "codoacodo"
 CORS(app)
  
 # configuro la base de datos, con el nombre el usuario y la clave
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://sql10508133:9enLP5EAWn@sql10.freemysqlhosting.net/sql10508133'
-#                                               user:clave@localhost/nombreBaseDatos
-# Server: sql10.freemysqlhosting.net
-# Name: sql10508133
-# Username: sql10508133
-# Password: 9enLP5EAWn
-# Port number: 3306
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:legionsagrada15@localhost/gsp'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)

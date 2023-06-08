@@ -7,7 +7,7 @@ if (document.getElementById("app")) {
             loading: true
         },
         created() {
-            var url = 'https://gsgp.herokuapp.com/usuarios'
+            var url = 'http://localhost:5000/usuarios'
             this.fetchData(url)
         },
         methods: {
@@ -23,7 +23,7 @@ if (document.getElementById("app")) {
                     })
             },
             eliminar(usuario) {
-                const url = 'https://gsgp.herokuapp.com/usuarios/' + usuario;
+                const url = 'http://localhost:5000/usuarios/' + usuario;
                 var options = {
                     method: 'DELETE',
                 }

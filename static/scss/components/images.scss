@@ -1,7 +1,15 @@
-.poster {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../img/wallpaper6.jpg');
-    background-size: cover;
-  }
+.poster-eu4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/wallpaper6.jpg');
+  background-size: cover;
+}
+
+.poster-hoi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/wallpaper2.jpg');
+  background-size: cover;
+}

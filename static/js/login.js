@@ -112,7 +112,7 @@ function guardar() {
         correoelectronico: ce
     }
     
-    let url = "https://gsgp.herokuapp.com/usuarios"
+    let url = "http://localhost:5000/usuarios";
     var options = {
         body: JSON.stringify(usuarios),
         method: 'POST',
@@ -145,7 +145,7 @@ function loguear() {
         contraseña: c,
     }
     
-    let url = "https://gsgp.herokuapp.com/login"
+    let url = "http://localhost:5000/login"
     var options = {
         body: JSON.stringify(usuarios),
         method: 'POST',
