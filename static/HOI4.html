@@ -6,14 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOI4</title>
-    <link href="./css/csssheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1aecc3b378.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header id="topnavbar">
-  
-    </header>
+    <section class="navbar">
+        <ul class="navbar-content">
+            <li>
+                <a href="./index.html"><img src="./img/logorms.jpg" alt="GSGP_Logo" class="logo"></a>
+            </li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Juegos</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-menu-element" href="./EU4.html">Europa Universalis IV</a>
+                    <a class="dropdown-menu-element" href="./HOI4.html">Hearts of Iron IV</a>
+                    <a class="dropdown-menu-element" href="./#">Stellaris</a>
+                </div>
+            </li>
+            <li><a href="./registro.html">Registro</a></li>
+            <li><a href="./login.html" id="login"> Login </a></li>
+        </ul>
+    </section>
+
     <main>
 
         <div class="poster">
@@ -22,15 +44,23 @@
         <div class="videos">
 
             <video src="./vids/hoi4_vids/Trailer_hoi4.mp4" poster="./img/hoi4_posters/hoi4_poster.jpg" preload></video>
-            <video src="./vids/hoi4_vids/Alemania_hoi4.mp4" poster="./img/hoi4_posters/alemania_poster.jpg" preload></video>
-            <video src="./vids/hoi4_vids/Argentina_hoi4.mp4" poster="./img/hoi4_posters/argentina_poster.jpg" preload></video>
+            <video src="./vids/hoi4_vids/Alemania_hoi4.mp4" poster="./img/hoi4_posters/alemania_poster.jpg"
+                preload></video>
+            <video src="./vids/hoi4_vids/Argentina_hoi4.mp4" poster="./img/hoi4_posters/argentina_poster.jpg"
+                preload></video>
 
         </div>
 
         <div class="Maintext">
-            <div class="Informacion" id="Informacion">
-                <h2> Información </h2>
-                <p>El Hearts of Iron IV, es la cuarta entrega de la serie HOI que se desarrolla desde el periodo de
+            
+
+            <div class="informacion" id="informacion">
+
+                <div class="informacion-title">
+                  <h2> Información </h2>
+                </div>
+          
+                <div class="informacion-text">El Hearts of Iron IV, es la cuarta entrega de la serie HOI que se desarrolla desde el periodo de
                     preguerra empezando
                     en el 1° de enero 1936 hasta el 1° de enero de 1951. Perteneciente al género Grand Strategy,
                     permite las gestión de incontables
@@ -43,12 +73,13 @@
                     a un comienzo aleatorio. De esta forma se puede obtener un EEUU donde triunfa el comunismo o una
                     URSS donde el complot Trotkista se
                     cumple y Trotsky vuelve del exilio en Mexico para reclamar su posición como Secretario General.
-                </p>
-            </div>
-        
+                </div>
+          
+              </div>
+
             <div class="Politica" id="Politica">
                 <h2> Política </h2>
-        
+
                 <p>El juego consta de factores políticos para decidir el destino del país a medida que avanza el
                     tiempo.
                     El mecanismo es simple de entender:
@@ -98,10 +129,10 @@
                 </p>
                 <div>
                     <img src="./img/Hoi4_tutorial/Politica.jpg">
-                    
+
                 </div>
             </div>
-        
+
             <div class="Economia" id="Economia">
                 <h2> Economía </h2>
                 <p> En este aspecto, el HOI4 en comparacióna a los demás juegos de Paradox es bastante más facil.
@@ -182,7 +213,7 @@
                 </p>
                 <img src="./img/Hoi4_tutorial/Investigacion.jpg">
             </div>
-        
+
             <div class="Militar" id="Militar">
                 <h2> Militar </h2>
                 <p>
@@ -290,32 +321,44 @@
                 </div>
             </div>
         </div>
-        </main>
+    </main>
+
     <footer>
-        <div class="contacto">
-            <p class="titulo">Contacto</p>
-            <div class="simbolo1"><i class="fa-brands fa-steam" id="steam"></i></div>
-            <div class="simbolo2"><i class="fa-brands fa-twitter"></i></div>
-            <div class="simbolo3"><i class="fa-brands fa-google"></i></div>
-            <a href="https://steamcommunity.com/id/oton/">
-                <div class="texto1">
-                    <p>Chiche Gelblung</p>
-                </div>
-            </a>
-            <a href="https://twitter.com/magicdiago">
-                <div class="texto2">
-                    <p>@magicdiago</p>
-                </div>
-            </a>
-            <a href="mailto:joaquindiago98@gmail.com">
-                <div class="texto3">
-                    <p>joaquindiago98@gmail.com</p>
-                </div>
-            </a>
-            <p class="copyright">Todos los derechos reservados</p>
+
+        <div class="contact">
+  
+          <div class="contact-title">
+            <h3>Contacto</h3>
+          </div>
+  
+          <div class="contact-socialmedia">
+  
+            <div class="contact-socialmedia-name">
+              <i class="fa-brands fa-steam" id="steam"></i>
+              <a href="https://steamcommunity.com/id/oton/">Usuario sin Nombre</a>
+            </div>
+            <div class="contact-socialmedia-name">
+              <i class="fa-brands fa-twitter"></i>
+              <a href="https://twitter.com/magicdiago">@magicdiago </a>
+            </div>
+            <div class="contact-socialmedia-name">
+              <i class="fa-brands fa-google"></i>
+              <a href="mailto:joaquindiago98@gmail.com">joaquindiago98@gmail.com</a>
+            </div>
+  
+          </div>
+  
+          <div class="contact-signature">
+            <h3>Todos los derechos reservados</h3>
+          </div>
+  
         </div>
-    </footer>
-    
+  
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <script src="./js/javascriptsheet.js"></script>
     <script src="js/index.js"></script>
 </body>

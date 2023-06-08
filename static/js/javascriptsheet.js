@@ -1,36 +1,6 @@
 // topnavbar
 
-document.getElementById("topnavbar").innerHTML=
-`
-<nav>
-    <div class="menu">
-        <ul class="links">
-            <div class="logo">
-                <img src="./img/logorm.jpg" alt="GSGP_Logo">
-            </div>
-            <li><a href="./index.html"> Inicio </a></li>
-            <div class="dropdown">
-                <li><a href="#Juegos"> Juegos </a></li>
-                <div class="dropdowncontent">
-                    <li><a href="./HOI4.html"> Hearts of Iron 4 </a></li>
-                    <li><a href="./EU4.html"> Europa Universalis 4 </a></li>
-                </div>
-            </div>
-            <div class="dropdown">
-                <li><a href="#Tutorial"> Tutorial </a></li>
-                <div class="dropdowncontent">
-                    <li><a href="#Informacion"> Informacion </a></li>
-                    <li><a href="#Politica"> Politica </a></li>
-                    <li><a href="#Economia"> Economia </a></li>
-                    <li><a href="#Militar"> Militar </a></li>
-                </div>
-            </div>
-            <li><a href="./registro.html"  id="registro"> Registro </a></li>
-            <li><a href="./login.html" id="login"> Login </a></li>
-        </ul>
-    </div>
-</nav>
-`
+
 
 
 // video
